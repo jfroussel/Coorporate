@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Laravel</title>
     <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 	<link href="{{ URL::asset('bootstrap/css/material.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('bootstrap/css/material-fullpalette.css') }}" rel="stylesheet">
 	<link href="{{ URL::asset('bootstrap/css/ripples.css') }}" rel="stylesheet">
@@ -22,7 +24,7 @@
 <body>
 
 
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-material-blue-grey">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -64,7 +66,7 @@
 			</div>
 		</div>
 	</nav>
-    <div class="container" style="padding-top: 80px">
+    <div class="container-fluid" style="padding-top: 80px">
         @yield('content')
     </div>
 

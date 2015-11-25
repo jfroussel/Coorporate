@@ -4,7 +4,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<div class="panel panel-default">
+			<div class="panel panel-material-blue-grey">
 				<div class="panel-heading">Modifier le Mot de Passe</div>
 				<div class="panel-body">
 					@if (count($errors) > 0)
@@ -45,7 +45,7 @@
 
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-info">
+								<button type="submit" class="btn btn-material-blue-grey">
 									Changer le Mot de Passe
 								</button>
 							</div>

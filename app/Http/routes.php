@@ -42,13 +42,5 @@ Route::get('/builder', ['middleware' => 'auth', function() {
 }]);
 
 
-//Route::get('/builder/application', function () {
-//    return view('builder/application');
-//});
 
-Route::group(['prefix' => 'builder'], function () {
-    Route::get('/application', function ()    {
-        return view('builder/application');
-    });
-});
 

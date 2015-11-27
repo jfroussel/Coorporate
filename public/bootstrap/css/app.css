@@ -1,0 +1,71 @@
+.vp_atelier{
+    background-color: #bec9d2;
+    width: 100%;
+    height: 700px;
+    color: #545454;
+}
+
+.layout_component img{
+     width: 100%;
+
+ }
+.form_component img{
+    width: 100%;
+
+}.composant{
+    width: 100%;
+    height: 100px;
+    padding: 10px 10px;
+    background-color: #535353;
+    text-align: center;
+
+ }
+ .composant h4{
+
+     background-color: #535353;
+     border:none;
+     color: #FFF;
+     font-family: "Open sans", sans-serif;
+     font-weight: 300;
+ }
+ .composant input {
+     font-family: "Open sans", sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+ }
+.composant select {
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.checkbox {
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+.radio {
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+.bouton {
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+.form{
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+}
+.vp-center{
+
+}
+.vp-toolsbox{
+    z-index: 5;
+}
+

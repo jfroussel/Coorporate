@@ -15,6 +15,7 @@
     <!-- CSS -->
     <link href="{{ URL::asset('material/css/app.min.1.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('material/css/app.min.2.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('material/css/app.css') }}" rel="stylesheet">
 
 
 </head>
@@ -35,6 +36,8 @@
 
       <!-- Javascript Libraries -->
             <script src="{{ URL::asset('material/vendors/bower_components/jquery/dist/jquery.min.js') }}"></script>
+            <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
             <script src="{{ URL::asset('material/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
             <script src="{{ URL::asset('material/vendors/bower_components/flot/jquery.flot.js') }}"></script>
             <script src="{{ URL::asset('material/vendors/bower_components/flot/jquery.flot.resize.js') }}"></script>
@@ -49,6 +52,7 @@
             <script src="{{ URL::asset('material/vendors/bootstrap-growl/bootstrap-growl.min.js') }}"></script>
             <script src="{{ URL::asset('material/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js') }}"></script>
 
+
             <!-- Placeholder for IE9 -->
             <!--[if IE 9 ]>
                 <script src="{{ URL::asset('material/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js') }}"></script>
@@ -60,5 +64,6 @@
             <script src="{{ URL::asset('material/js/charts.js') }}"></script>
             <script src="{{ URL::asset('material/js/functions.js') }}"></script>
             <script src="{{ URL::asset('material/js/demo.js') }}"></script>
+            <script src="{{ URL::asset('material/js/app.js') }}"></script>
 </body>
 </html>

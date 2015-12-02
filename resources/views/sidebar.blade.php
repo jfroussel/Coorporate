@@ -72,7 +72,7 @@
                                     <div id="collapseOne" class="collapse in" role="tabpanel" aria-labelledby="headingOne">
                                         <div class="panel-body">
                                            <div class="media">
-                                               <div class="pull-left">
+                                               <div class="pull-left" id="pull-left">
                                                    <a href="#">
                                                        <img class="media-object" src="material/img/builder/classique.png" alt="">
                                                    </a>
@@ -428,16 +428,11 @@
                                                       Modele de composant pour la creation de vos formulaires ...
                                                   </div>
                                               </div>
-
-
-
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </aside>

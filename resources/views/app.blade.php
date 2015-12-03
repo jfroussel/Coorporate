@@ -18,18 +18,17 @@
     <link href="{{ URL::asset('material/css/app.css') }}" rel="stylesheet">
 
 
+
 </head>
 <body>
 
 @include('header')
 
-
-
 @include('footer')
 
 
 
-    <div class="container-fluid" style="padding-top: 80px">
+    <div class="container-fluid" style="padding-left: 0px; padding-right:0px">
         @yield('content')
     </div>
 
@@ -57,7 +56,7 @@
             <!--[if IE 9 ]>
                 <script src="{{ URL::asset('material/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js') }}"></script>
             <![endif]-->
-
+            <script src="{{URL::asset('material/vendors/bootgrid/jquery.bootgrid.min.js')}}"></script>
             <script src="{{ URL::asset('material/js/flot-charts/curved-line-chart.js') }}"></script>
             <script src="{{ URL::asset('material/js/flot-charts/line-chart.js') }}"></script>
             <script src="{{ URL::asset('material/js/charts.js') }}"></script>
@@ -65,5 +64,6 @@
             <script src="{{ URL::asset('material/js/functions.js') }}"></script>
             <script src="{{ URL::asset('material/js/demo.js') }}"></script>
             <script src="{{ URL::asset('material/js/app.js') }}"></script>
+
 </body>
 </html>

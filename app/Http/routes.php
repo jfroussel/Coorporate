@@ -35,8 +35,29 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/users', function(){
+    return view('builder/coorporate/users');
+});
 
+Route::get('/support', function(){
+    return view('builder/coorporate/support');
+});
 
+Route::get('/help', function(){
+    return view('builder/coorporate/help');
+});
+
+Route::get('/gestion-ventes', function(){
+    return view('builder/dashboard');
+});
+
+Route::get('/profil', function(){
+    return view('builder/customer/profil');
+});
+
+Route::get('/settings', function(){
+    return view('builder/customer/settings');
+});
 Route::get('/builder', ['middleware' => 'auth', function() {
     return view('builder');
 }]);

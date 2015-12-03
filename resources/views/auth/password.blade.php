@@ -8,7 +8,7 @@
 
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/password/email') }}">
     {!! csrf_field() !!}
-        <div class="card-header bgm-orange">
+        <div class="card-header bgm-blue">
             <i class="fa fa-key fa-4x"></i>
             <h2>Changer votre Mot de Passe<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur consequatur, est laboriosam minus molestias necessitatibus, nemo nisi numquam reiciendis sapiente sed sint sit, tenetur ut voluptatem voluptatibus. Dolore, perferendis!</small></h2>
         </div>

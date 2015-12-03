@@ -16,10 +16,10 @@
 
                         <ul class="main-menu">
                             <li>
-                                <a href="profile-about.html"><i class="zmdi zmdi-account"></i> Profil</a>
+                                <a href="{{ url('/profil') }}"><i class="zmdi zmdi-account"></i> Profil</a>
                             </li>
                             <li>
-                                <a href=""><i class="zmdi zmdi-settings"></i> Préférences</a>
+                                <a href="{{ url('/settings') }}"><i class="zmdi zmdi-settings"></i> Préférences</a>
                             </li>
                             <li>
                                 <a href=""><i class="zmdi zmdi-time-restore"></i> Se deconnecter</a>
@@ -33,11 +33,14 @@
                         <li class="sub-menu">
                             <a href=""><i class="zmdi zmdi-swap-alt"></i>Mes applications</a>
                             <ul>
-                                <li><a href="">Gestion des ventes</a></li>
-                                <li><a href="">CRM </a></li>
-                                <li><a href="box-shadow.html">Extranet clients</a></li>
+                                <li><a href="{{url('gestion-ventes')}}">Gestion des ventes</a></li>
+                                <li><a href="{{ url('crm') }}">CRM </a></li>
+                                <li><a href="{{ url('extranet-client') }}box-shadow.html">Extranet clients</a></li>
                             </ul>
                         </li>
+                         <li><a href="{{ url('/users') }}"><i class="zmdi zmdi-accounts"></i> Gestion des utilisateurs</a></li>
+                         <li><a href="{{ url('/help') }}"><i class="zmdi zmdi-pin-help"></i> Centre d'aide</a></li>
+                         <li><a href="{{ url('/support') }}"><i class="zmdi zmdi-headset"></i> Contactez le support</a></li>
 
                     </ul>
                 </div>

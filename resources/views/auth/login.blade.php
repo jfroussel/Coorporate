@@ -8,7 +8,7 @@
 
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
     {!! csrf_field() !!}
-        <div class="card-header bgm-orange">
+        <div class="card-header bgm-blue">
            <i class="fa fa-sign-in fa-4x"></i>
             <h2>SE CONNECTER à VPO-Builder<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur consequatur, est laboriosam minus molestias necessitatibus, nemo nisi numquam reiciendis sapiente sed sint sit, tenetur ut voluptatem voluptatibus. Dolore, perferendis!</small></h2>
         </div>

@@ -7,9 +7,14 @@
                         <div class="line bottom"></div>
                     </div>
                 </li>
+
+
             
                 <li class="logo hidden-xs">
                     <a href="{{ url('/') }}">Vente Partner Online</a>
+                </li>
+                <li class="logo hidden-xs">
+                    <a href="{{ url('/produit') }}">Produit</a>
                 </li>
                 <li class="logo hidden-xs">
                     <a href="{{ url('/documentation') }}">Documentation</a>

@@ -87,8 +87,12 @@
      </div>
 
         <hr/>
-
-
+      <script type="text/javascript" src="http://assets.freshdesk.com/widget/freshwidget.js"></script>
+      <style type="text/css" media="screen, projection">
+      	@import url(http://assets.freshdesk.com/widget/freshwidget.css);
+      </style>
+      <iframe title="Feedback Form" class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://desico.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&screenshot=no" scrolling="no" height="500px" width="100%" frameborder="0" >
+      </iframe>
          <div class="embed-responsive embed-responsive-16by9">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.423014507081!2d2.2558368161905684!3d48.81198981192586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67a6412bd4c45%3A0xb2dafc98464bc79d!2s85+Avenue+Henri+Barbusse%2C+92140+Clamart!5e0!3m2!1sfr!2sfr!4v1449134222795" width=100% height="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
          </div>

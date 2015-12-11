@@ -43,6 +43,10 @@ Route::get('/support', function(){
     return view('builder/coorporate/support');
 });
 
+Route::get('/contact', function(){
+    return view('builder/coorporate/contact');
+});
+
 Route::get('/help', function(){
     return view('builder/coorporate/help');
 });
@@ -57,6 +61,10 @@ Route::get('/profil', function(){
 
 Route::get('/settings', function(){
     return view('builder/customer/settings');
+});
+
+Route::get('/try', function(){
+   return view('builder/coorporate/try');
 });
 Route::get('/builder', ['middleware' => 'auth', function() {
     return view('builder');

@@ -49,3 +49,27 @@
     padding-left: 150px;
 }
 
+.header-vpo {
+    background-color: #4a494d;
+}
+
+.carousel-title {
+    color:#FFF;
+}
+
+.carousel-baseline {
+    font-size: 18px;
+}
+
+
+
+.carousel-vspacer {
+    padding-top: 25px;
+}
+.vspacer50 {
+    padding-top: 50px;
+}
+
+.heading {
+    text-align: center;
+}

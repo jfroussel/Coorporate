@@ -13,7 +13,7 @@
     <link href="{{ URL::asset('material/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('material/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css') }}" rel="stylesheet">
     <!-- CSS -->
-    <link href="{{ URL::asset('material/css/app.min.1.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('material/css/app1.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('material/css/app.min.2.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('material/css/app.css') }}" rel="stylesheet">
 

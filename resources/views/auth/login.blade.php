@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-
+<hr/>
  <div class="card">
 
     <form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
